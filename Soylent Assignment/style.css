@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #AAD9A2;
+}
+
+nav{
+    /* border: 1px solid red; */
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+}
+
+.menu-left{
+
+    /* border: 1px solid blue; */
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 9rem;
+}
+
+.menu-left li{
+    margin-left: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+    transition: all ease .5s;
+}
+
+.menu-left li:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.menu-right{
+    width: 40%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 9rem;
+}
+
+.menu-right li:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+
+.menu-right li{
+    /* border: 1px solid red; */
+    margin-right: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+    transition: all ease .5s;
+}
+
+.banner{
+    height: 90vh;
+    width: 50vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 30vw;
+    position: absolute;
+    top: 60%;
+    color: rgb(0, 0, 0);
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+.container p{
+    font-size: 15px;
+}
+
+.container .btn{
+    background-color: rgb(103, 223, 103);
+    height: 30px;
+    width: 90px;
+}
+
+.container .btn:hover{
+    color: rgb(103, 223, 103);
+    background-color: black;
+}
+
+/* button{
+    background-color: rgb(34, 188, 34);
+    color: white;
+}
+
+section{
+    width: 30vw;
+    top: 50px;
+} */
